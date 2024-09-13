@@ -11,6 +11,7 @@ def test_q1(capsys):
     sys.exit()
 
   q1()
+
   captured = capsys.readouterr()
   assert captured.out == "Hello World\n"
 
